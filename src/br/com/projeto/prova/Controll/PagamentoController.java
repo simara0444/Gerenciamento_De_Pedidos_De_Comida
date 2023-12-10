@@ -30,11 +30,13 @@ public class PagamentoController implements IController<Pagamento> {
 
     @Override
     public void adicionar(Pagamento pagamento) {
-        int idClienteAssociado = relacionamentoPagamentoClienteController.encontrarClienteAssociadoAoPagamento(pagamento.getIdPagamento());
+        int idClienteAssociado = relacionamentoPagamentoClienteController.encontrarClienteAssociadoAoPagamento
+                (pagamento.getIdPagamento());
         if (idClienteAssociado != -1) {
             Cliente clienteAssociado = clienteController.buscar(idClienteAssociado);
             if (clienteAssociado != null) {
-                double valorTotalPedidosCliente = relacionamentoPedidoClienteController.calcularValorTotalPedidosCliente(clienteAssociado);
+                double valorTotalPedidosCliente = relacionamentoPedidoClienteController.calcularValorTotalPedidosCliente
+                        (clienteAssociado);
                 try {
                     if (pagamento.getValorTotalDosPedidosDoCliente() == valorTotalPedidosCliente) {
                         pagamento.setStatusPagamento(true);

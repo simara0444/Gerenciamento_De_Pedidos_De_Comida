@@ -61,7 +61,6 @@ public class PedidoController implements IController<Pedido> {
         return false;
     }
 
-    //achei melhor fazer o metodo assim
     @Override
     public void atualizar(int id, int novoId) {
         Pedido pedidoExistente = dao.buscar(id);
