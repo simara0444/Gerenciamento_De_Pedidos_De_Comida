@@ -84,7 +84,7 @@ public class EntregaController implements IController<Entrega>, IEntregaControll
                 if (entregaNova == null || novoId == id) {
                     entregaExistente.setIdEntrega(novoId);
                     dao.atualizar(id, entregaExistente);
-                    System.out.println("Entregador atualizado com sucesso!");
+                    System.out.println("Entrega atualizada com sucesso!");
                 } else {
                     throw new IdJaExistenteException();
                 }
