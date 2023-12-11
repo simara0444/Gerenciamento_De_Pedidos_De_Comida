@@ -38,8 +38,7 @@ public class AvaliacaoDAO implements IDao<Avaliacao> {
 
     @Override
     public boolean remover(Avaliacao objeto) {
-        listaAvaliacoes.remove(objeto);
-        return false;
+       return listaAvaliacoes.remove(objeto);
     }
 
     @Override
