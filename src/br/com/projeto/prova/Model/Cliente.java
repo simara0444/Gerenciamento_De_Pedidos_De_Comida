@@ -34,9 +34,8 @@ public class Cliente {
     @Override
     public String toString() {
         return "Cliente{" +
-                "nome='" + nome + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", id=" + id +
-                "\n}";
+                "nome= '" + nome + '\'' +
+                ", endereco= '" + endereco + '\'' +
+                ", id= " + id + " }\n";
     }
 }

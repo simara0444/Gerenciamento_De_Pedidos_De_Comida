@@ -47,10 +47,9 @@ public class Pedido {
     @Override
     public String toString() {
         return "Pedido{" +
-                "valorDoPedido=" + valorDoPedido + "R$" +
-                ", pedido='" + pedido + '\'' +
-                ", idPedido=" + idPedido +
-                "\n}";
+                "valorDoPedido= " + valorDoPedido + "R$" +
+                ", pedido= '" + pedido + '\'' +
+                ", idPedido= " + idPedido + " }\n";
     }
 }
 

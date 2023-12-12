@@ -37,9 +37,8 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Funcionario{" +
-                "nomeDoFuncionario='" + nomeDoFuncionario + '\'' +
-                ", idDoFuncionario=" + idDoFuncionario +
-                ", idadeDoFuncionario=" + idadeDoFuncionario +
-                '}';
+                "nomeDoFuncionario= '" + nomeDoFuncionario + '\'' +
+                ", idDoFuncionario= " + idDoFuncionario +
+                ", idadeDoFuncionario= " + idadeDoFuncionario + " }\n";
     }
 }

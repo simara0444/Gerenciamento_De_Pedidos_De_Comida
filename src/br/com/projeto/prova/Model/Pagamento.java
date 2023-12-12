@@ -54,12 +54,11 @@ public class Pagamento {
     @Override
     public String toString() {
         return "Pagamento{" +
-                "formaDePagamento='" + formaDePagamento + '\'' +
-                ", numeroDoCartao=" + numeroDoCartao +
-                ", statusPagamento=" + statusPagamento +
-                ", valorTotalDosPedidosDoCliente=" + valorTotalDosPedidosDoCliente + "R$" +
-                ", idPagamento=" + idPagamento +
-                "\n}";
+                "formaDePagamento= '" + formaDePagamento + '\'' +
+                ", numeroDoCartao= " + numeroDoCartao +
+                ", statusPagamento= " + statusPagamento +
+                ", valorTotalDosPedidosDoCliente= " + valorTotalDosPedidosDoCliente + "R$" +
+                ", idPagamento= " + idPagamento + " }\n";
     }
 }
 

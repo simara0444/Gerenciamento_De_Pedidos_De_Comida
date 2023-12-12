@@ -47,10 +47,9 @@ public class Entregador {
     @Override
     public String toString() {
         return "Entregador{" +
-                "nomeDoEntregador='" + nomeDoEntregador + '\'' +
-                ", idEntregador=" + idEntregador +
-                ", idade=" + idade +
-                ", corDaMoto='" + corDaMoto + '\'' +
-                "\n}";
+                "nomeDoEntregador= '" + nomeDoEntregador + '\'' +
+                ", idEntregador= " + idEntregador +
+                ", idade= " + idade +
+                ", corDaMoto= '" + corDaMoto + '\'' + " }\n";
     }
 }

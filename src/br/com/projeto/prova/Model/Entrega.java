@@ -45,11 +45,10 @@ public class Entrega {
     @Override
     public String toString() {
         return "Entrega{" +
-                "statusEntrega=" + statusEntrega +
-                ", ID do entregador=" + idDoEntregadorDaEntrega +
-                ", tipoDeEntrega='" + tipoDeEntrega + '\'' +
-                ", IdEntrega=" + IdEntrega +
-                "\n}";
+                "statusEntrega= " + statusEntrega +
+                ", ID do entregador= " + idDoEntregadorDaEntrega +
+                ", tipoDeEntrega= '" + tipoDeEntrega + '\'' +
+                ", IdEntrega= " + IdEntrega + " }\n";
     }
 }
 

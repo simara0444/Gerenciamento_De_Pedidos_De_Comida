@@ -38,10 +38,10 @@ public class Avaliacao {
     @Override
     public String toString() {
         return "Avaliacao{" +
-                "idAvaliacao=" + idAvaliacao +
-                ", nota=" + nota +
-                ", comentario='" + comentario + '\'' +
-                "\n}";
+                "idAvaliacao= " + idAvaliacao +
+                ", nota= " + nota +
+                ", comentario= '" + comentario + '\'' + " }\n";
+
     }
 }
 

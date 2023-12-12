@@ -59,7 +59,6 @@ public class Main {
         String nomeDoFuncionario1 = sc.nextLine();
         System.out.println("Digite o ID do funcionário: ");
         int idDoFuncionario1 = sc.nextInt();
-        sc.nextLine();
         System.out.println("Digite a idade do funcionário");
         int idadeDoFunciomario1 = sc.nextInt();
         sc.nextLine();
@@ -75,7 +74,6 @@ public class Main {
         String nomeDoFuncionario2 = sc.nextLine();
         System.out.println("Digite o ID do funcionário: ");
         int idDoFuncionario2 = sc.nextInt();
-        sc.nextLine();
         System.out.println("Digite a idade do funcionário");
         int idadeDoFunciomario2 = sc.nextInt();
         sc.nextLine();
