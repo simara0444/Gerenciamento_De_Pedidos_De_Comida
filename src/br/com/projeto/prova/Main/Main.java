@@ -187,7 +187,7 @@ public class Main {
 
         System.out.println("\nLembrete: só aceitamos Cartão e Dinheiro como forma de pagamento");
         System.out.println("Forma de pagamento do cliente " + cliente1.getNome());
-        String formaDePagamento1 = sc.nextLine();
+        String formaDePagamento1 = sc.nextLine().toLowerCase();
         System.out.println("Valor total: ");
         double valorTotalDosPedidosDoCliente1 = sc.nextDouble();
         System.out.println("Digite o id do pagamento: ");
